@@ -1,0 +1,2 @@
+WEBサイト起動
+PS C:\dev\my-portfolio>  npm run dev
