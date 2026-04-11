@@ -1,12 +1,11 @@
 ---
-// 1. 全ての変数・インポートは、この一番上の「---」の中にまとめます
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
 // ここにログイン判定ロジックを書きます（まずは動作確認のため false に設定）
-const isLoggedIn = false; 
+const isLoggedIn = false;
 ---
 
 <!doctype html>
@@ -29,7 +28,7 @@ const isLoggedIn = false;
 			</p>
 
 			<section style="margin-top: 2rem; border: 1px solid #444; padding: 1rem; border-radius: 8px;">
-				<h3>🤖 AIチャットボット・デモ</h3>
+				<h3>AIチャットボット・デモ</h3>
 				
 				{isLoggedIn ? (
 					/* ログインしている場合：チャット画面を表示 */
